@@ -1,9 +1,8 @@
 
 .maincontainer {
-    /* background-image: linear-gradient(to right, #C4C4C4, #949494); */
-    /* background-color: #F6F5F1; */
     background-color: #eae9df;
     padding: 40px;
+    /* height: 100%; */
     /* background-color: #5266AD; */
 }
 
@@ -23,14 +22,13 @@ text-align: center;
 
 h2{
 /* font-family: acumin-pro, sans-serif; */
-font-family: orpheuspro, serif;
-margin: auto;
-font-weight: 800; 
-font-style: bold;
-font-size: 22px;
-line-height: 28px;
+font-family: acumin-pro, sans-serif;
+font-weight: 400; 
+font-size: 14px;
+/* line-height: 28px; */
 width: 610px;
-padding-top: 40px;
+padding-top: 30px;
+padding-left: 80px;
 /* padding-left: 80px; */
 }
 
@@ -39,10 +37,13 @@ h3{
 font-family: acumin-pro, sans-serif;
 font-weight: 200; 
 font-style: normal;
-font-size: 16px;
-line-height: 21px;
+font-size: 20px;
+line-height: 28px;
 padding-top: 20px;
-padding-left: 80px;
+/* padding-left: 80px; */
+margin: auto;
+width: 900px;
+text-align: center;
 }
 
 .image1 {
@@ -78,20 +79,23 @@ padding-left: 80px;
 
 .image5 {
     width: 550px;
-
-
-}
-
-.image6 {
-    width: 850px;
     position: relative;
     right: 300px;
 
 }
 
+.image6 {
+width: 950px;
+position: relative;
+right: 200px;
+
+
+}
+
 .image7 {
-    width: 350px;
-    padding-left: 90px;
+    width: 550px;
+    position: relative;
+    right: 200px;
 
 }
 
@@ -106,7 +110,7 @@ padding-left: 80px;
     grid-row-end: 2;
     padding-right: 100px;
     width: 950px;
-    padding-top: 20px;
+    /* padding-top: 10px; */
     padding-left: 80px;
     /* color: #1a1f54; */
     }
@@ -153,3 +157,148 @@ padding-left: 80px;
     
 
 
+ @media(max-width:768px) {
+    .maincontainer {
+        background-color: #eae9df;
+        width: 1300px;
+    }
+    h1 {
+        font-size: 45px;
+        width: 700px;
+        position: relative;
+        right: 280px;
+    }  
+
+    h2{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 20px;
+        width: 650px;
+        padding-left: 20px;
+        text-align: left;
+        position: relative;
+        right: 255px;
+    }
+    .headline{
+        font-size: 18px;
+        line-height: 26px;
+        width: 500px;
+    }
+
+    .maintext{
+        font-size: 16px;
+        line-height: 24px;
+        /* padding-right: 100px;
+        width: 450px; */
+        width: 600px;
+        position: relative;
+        right: 300px;
+    }
+
+    .image1{
+        width: 600px;
+        position: relative;
+        right: 60px;
+    }
+
+    .image2{
+        width: 600px;
+        position: relative;
+        right: 60px;
+    }
+
+    .image6 {
+        width: 750px;
+        position: relative;
+        right: 50px;
+        }
+
+     .image4 {
+     width: 450px;
+     position: relative;
+     right: 50px;
+     }
+
+     .image5 {
+        width: 550px;
+        position: relative;
+        right: 50px; 
+     }
+
+     .image7 {
+        width: 550px;
+        position: relative;
+        right: 50px; 
+     }
+
+    .pullquote {
+        font-size: 18px;
+        line-height: 22px;
+        width: 200px;
+        position: relative;
+        right: 10%;
+        color: black;
+    }
+
+    .pullquote2 {
+        font-size: 18px;
+        line-height: 22px;
+        width: 200px;
+        position: relative;
+        left: 450px;
+        color: black;
+    }
+}
+
+
+@media(max-width:375px) {
+    .maincontainer {
+        background-color: #eae9df;
+        width: 1300px;
+    }
+    h1 {
+        font-size: 55px;
+        width: 750px;
+        position: relative;
+        right: 260px;
+    }  
+
+    h2{
+        font-size: 16px;
+        padding-left: 0px;
+
+    }
+    h3{
+        font-size: 20px;
+        line-height: 29px;
+        width: 550px;
+        text-align: left;
+        /* padding-left: 0px; */
+        position: relative;
+        right: 400px;
+    }
+    .headline{
+        font-size: 24px;
+        line-height: 30px;
+        width: 600px;
+        padding-left: 0px;
+
+    }
+
+    .image1{
+        width: 600px;
+        position: relative;
+        right: 100px;
+    }
+
+    .maintext{
+        font-size: 26px;
+        line-height: 32px;
+        /* padding-right: 100px; */
+        width: 600px;
+        position: relative;
+        right: 300px;
+    }
+
+}
