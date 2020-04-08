@@ -47,14 +47,14 @@ text-align: center;
 }
 
 .image1 {
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: auto;
+    padding-left: 150px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
-    width: 900px;
+    width: 1200px;
 }
 
 .image2 {
@@ -102,14 +102,14 @@ right: 200px;
 .headline{
     font-family: orpheuspro, serif;
     font-weight: 200;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 42px;
+    line-height: 56px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     padding-right: 100px;
-    width: 950px;
+    width: 1000px;
     /* padding-top: 10px; */
     padding-left: 80px;
     /* color: #1a1f54; */
@@ -122,10 +122,10 @@ right: 200px;
     line-height: 36px;
     position: relative;
     right: 55%;
-    bottom: 800px;
+    bottom: 830px;
     width: 450px;
     height: 50px;
-    color: #949494;
+    /* color: #949494; */
 }
 
 .pullquote2 {
@@ -135,10 +135,10 @@ right: 200px;
     line-height: 36px;
     position: relative;
     left: 50%;
-    bottom: 400px;
+    bottom: 830px;
     width: 500px;
     height: 50px;
-    color: #949494;
+    /* color: #949494; */
 }
     
 
@@ -226,7 +226,7 @@ right: 200px;
         right: 50px; 
      }
 
-     .image7 {
+     .image {
         width: 550px;
         position: relative;
         right: 50px; 
