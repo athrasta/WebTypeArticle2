@@ -34,26 +34,28 @@ padding-left: 80px;
 
 
 h3{
-font-family: acumin-pro, sans-serif;
+/* font-family: acumin-pro, sans-serif; */
+font-family: orpheuspro, serif;
 font-weight: 200; 
 font-style: normal;
-font-size: 20px;
-line-height: 28px;
+font-size: 28px;
+line-height: 36px;
 padding-top: 20px;
 /* padding-left: 80px; */
 margin: auto;
-width: 900px;
+width: 1150px;
 text-align: center;
 }
 
 .image1 {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin: auto;
-    padding-left: 150px;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+
+    /* padding-left: 150px; */
     width: 1200px;
 }
 
@@ -61,12 +63,14 @@ text-align: center;
     width: 550px;
     position: relative;
     right: 300px;
+    padding-top: 30px;
 
 }
 
 .image3 {
     width: 550px;
     padding-left: 180px;
+    padding-top: 30px;
    
 
 }
@@ -75,12 +79,14 @@ text-align: center;
     width: 550px;
     position: relative;
     right: 300px;
+    padding-top: 30px;
 }
 
 .image5 {
     width: 550px;
     position: relative;
     right: 300px;
+    padding-top: 30px;
 
 }
 
@@ -96,6 +102,7 @@ right: 200px;
     width: 550px;
     position: relative;
     right: 200px;
+    padding-top: 30px;
 
 }
 
@@ -122,7 +129,7 @@ right: 200px;
     line-height: 36px;
     position: relative;
     right: 55%;
-    bottom: 830px;
+    bottom: 850px;
     width: 450px;
     height: 50px;
     /* color: #949494; */
@@ -135,12 +142,79 @@ right: 200px;
     line-height: 36px;
     position: relative;
     left: 50%;
-    bottom: 830px;
+    bottom: 890px;
     width: 500px;
     height: 50px;
     /* color: #949494; */
 }
     
+.caption {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 270px;
+    bottom: 70px;
+    width: 100px;
+}
+
+.caption2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+    width: 100px;
+}
+
+
+.caption3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 270px;
+    bottom: 70px;
+    width: 100px;
+}
+
+.caption4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 270px;
+    bottom: 40px;
+    width: 100px;
+}
+
+.caption5 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    width: 80px;
+}
+
+.caption6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    line-height: 14px; 
+    position: relative;
+    left: 360px;
+    bottom: 70px;
+    width: 100px;
+}
+
 
 .maintext{
     margin: auto;
